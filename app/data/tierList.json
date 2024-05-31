@@ -1,0 +1,147 @@
+[
+    {
+        "name": "Simon Stone",
+        "type": "reporter",
+        "tier": 1,
+        "workplace": "BBC",
+        "link": "sistoney67",
+        "region": "England"
+    },
+    {
+        "name": "Simon Peach",
+        "type": "journalist",
+        "tier": 1,
+        "workplace": "PA, The Independent",
+        "link": "SimonPeach",
+        "region": "England",
+        "club": "Manchester Unied"
+    },
+    {
+        "name": "Craig Norwood",
+        "type": "photographer",
+        "tier": 1,
+        "workplace": "Club Photographer at Manchester United",
+        "link": "CraigNorwood",
+        "region": "England"
+    },
+    {
+        "name": "James Ducker",
+        "type": "journalist",
+        "tier": 1,
+        "workplace": "The Telegraph",
+        "link": "TelegraphDucker",
+        "region": "England",
+        "suspect": true,
+        "club": "Manchester United, Manchester City"
+    },
+    {
+        "name": "Gaston Edul",
+        "type": "journalist",
+        "tier": 1,
+        "workplace": "TyC Sports",
+        "link": "gastonedul",
+        "region": "Argentina"
+    },
+    {
+        "name": "Henry Winter",
+        "type": "journalist",
+        "tier": 1,
+        "workplace": "The Times Chief of Football",
+        "link": "henrywinter",
+        "region": "England"
+    },
+    {
+        "name": "Mohamed Bouhafsi",
+        "type": "journalist",
+        "tier": 1,
+        "workplace": "France Télévisions",
+        "link": "mohamedbouhafsi",
+        "region": "France"
+    },
+    {
+        "name": "Paul Joyce",
+        "type": "journalist",
+        "tier": 1,
+        "workplace": "The Times",
+        "link": "_pauljoyce",
+        "region": "England",
+        "club": "Liverpool, Everton"
+    },
+    {
+        "name": "Kristof Terreur",
+        "type": "journalist",
+        "tier": 1,
+        "workplace": "European football correspondent",
+        "link": "kristofterreur",
+        "region": "England"
+    },
+    {
+        "name": "David Ornstein",
+        "type": "journalist",
+        "tier": 1,
+        "workplace": "The Athletic",
+        "link": "David_Ornstein",
+        "region": "England"
+    },
+    {
+        "name": "Arancha Rodriguez",
+        "type": "journalist",
+        "tier": 1,
+        "workplace": "Deportes Cope",
+        "link": "AranchaMOBILE",
+        "region": "Spain",
+        "club": "Real Madrid"
+    },
+    {
+        "name": "Sam Lee",
+        "type": "journalist",
+        "tier": 1,
+        "workplace": "The Athletic",
+        "link": "SamLee",
+        "region": "England",
+        "club": "Manchester City"
+    },
+    {
+        "name": "Romeo Agresti",
+        "type": "journalist",
+        "tier": 1,
+        "workplace": "GOAL Italia, Goal",
+        "link": "romeoagresti",
+        "region": "Italy",
+        "club": "Juventus"
+    },
+    {
+        "name": "John Percy",
+        "type": "reporter",
+        "tier": 1,
+        "workplace": "The Telegraph, Sunday Telegraph",
+        "link": "JPercyTelegraph",
+        "region": "England",
+        "club": "Midlands football clubs"
+    },
+    {
+        "name": "Alan Nixon",
+        "type": "journalist",
+        "tier": 1,
+        "workplace": "N/A",
+        "link": "reluctantnicko",
+        "club": "for youth, and League clubs news"
+    },
+    {
+        "name": "Laurie Whitwell",
+        "type": "journalist",
+        "tier": 1,
+        "workplace": "The Athletic",
+        "link": "lauriewhitwell",
+        "region": "England",
+        "club": "Manchester Unied"
+    },
+    {
+        "name": "BBC",
+        "type": "broadcaster",
+        "tier": 1,
+        "workplace": "BBC",
+        "link": "BBC",
+        "region": "England"
+    }
+]

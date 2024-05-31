@@ -1,0 +1,368 @@
+[
+    {
+        "name": "Laurie Whitwell",
+        "type": "journalist",
+        "tier": 1,
+        "workplace": "TheAthletic",
+        "link": "lauriewhitwell"
+    },
+
+    {
+        "name": "Paul Hirst",
+        "type": "journalist",
+        "tier": 1,
+        "workplace": "TheTimes",
+        "link": "hirstclass"
+    },
+    {
+        "name": "Mike McGrath",
+        "type": "journalist",
+        "tier": 1,
+        "workplace": "TheTelegraph",
+        "link": "mcgrathmike"
+    },
+    {
+        "name": "Sami Mokbel",
+        "type": "journalist",
+        "tier": 2,
+        "workplace": "DailyMail",
+        "link": "SamiMokbel81_DM"
+    },
+    {
+        "name": "Rob Dawson",
+        "type": "journalist",
+        "tier": 2,
+        "workplace": "ESPN",
+        "link": "RobDawsonESPN"
+    },
+    {
+        "name": "Fabrizio Romano (exclusives only)",
+        "type": "journalist",
+        "tier": 2,
+        "workplace": "TheGuardian, youtuber",
+        "link": "FabrizioRomano"
+    },
+    {
+        "name": "Jason Burt",
+        "type": "journalist",
+        "tier": 2,
+        "workplace": "TheTelegraph",
+        "link": "JBurtTelegraph"
+    },
+    {
+        "name": "Charlotte Duncker",
+        "type": "journalist",
+        "tier": 2,
+        "workplace": "TheTimes",
+        "link": "CharDuncker"
+    },
+    {
+        "name": "Jonathan Northcroft",
+        "type": "journalist",
+        "tier": 2,
+        "workplace": "TheTimes",
+        "link": "JNorthcroft"
+    },
+    {
+        "name": "Adrian Kajumba",
+        "type": "journalist",
+        "tier": 2,
+        "workplace": "DailyMail",
+        "link": "AdrianJKajumba"
+    },
+    {
+        "name": "Andy Mitten",
+        "type": "journalist",
+        "tier": 3,
+        "workplace": "TheAthletic, TheNational",
+        "link": "AndyMitten"
+    },
+    {
+        "name": "Samuel Luckhurst (2.5)",
+        "type": "journalist",
+        "tier": 3,
+        "workplace": "Manchester Evening News",
+        "link": "samuelluckhurst"
+    },
+    {
+        "name": "Tyrone Marshall",
+        "type": "journalist",
+        "tier": 3,
+        "workplace": "Manchester Evening News",
+        "link": "TyMarshall_MEN"
+    },
+    {
+        "name": "Alex Crook",
+        "type": "journalist",
+        "tier": 3,
+        "workplace": "talkSPORT",
+        "link": "alex_crook"
+    },
+    {
+        "name": "Chris Wheeler",
+        "type": "journalist",
+        "tier": 3,
+        "workplace": "DailyMail",
+        "link": "ChrisWheelerDM"
+    },
+    {
+        "name": "Gianluca Di Marzio (2 for Italy)",
+        "type": "journalist",
+        "tier": 3,
+        "workplace": "SkyItalia",
+        "link": "DiMarzio"
+    },
+    {
+        "name": "Mark Ogden",
+        "type": "journalist",
+        "tier": 3,
+        "workplace": "ESPN",
+        "link": "MarkOgden_"
+    },
+    {
+        "name": "Simon Mullock (exclusives only)",
+        "type": "journalist",
+        "tier": 3,
+        "workplace": "Mirror",
+        "link": "MullockSMirror"
+    },
+    {
+        "name": "Rich Fay (youth team)",
+        "type": "journalist",
+        "tier": 3,
+        "workplace": "Manchester Evening News",
+        "link": "RichFay"
+    },
+    {
+        "name": "Jamie Jackson",
+        "type": "journalist",
+        "tier": 3,
+        "workplace": "TheGuardian",
+        "link": "jamiejackson___"
+    },
+    {
+        "name": "Melissa Reddy (new)",
+        "type": "journalist",
+        "tier": 3,
+        "workplace": "SkySports",
+        "link": "MelissaReddy_"
+    },
+    {
+        "name": "Dharmesh Sheth",
+        "type": "journalist",
+        "tier": 3,
+        "workplace": "SkySports",
+        "link": "skysports_sheth"
+    },
+    {
+        "name": "Pol Ballus (new)",
+        "type": "journalist",
+        "tier": 3,
+        "workplace": "TheAthletic",
+        "link": "polballus"
+    },
+    {
+        "name": "Simon Jones (tends to piggyback but excl are reliable)",
+        "type": "journalist",
+        "tier": 3,
+        "workplace": "DailyMail",
+        "link": ""
+    },
+    {
+        "name": "Mark Critchley",
+        "type": "journalist",
+        "tier": 3,
+        "workplace": "TheIndependent",
+        "link": "mjcritchley"
+    },
+    {
+        "name": "John Cross (2 for others)",
+        "type": "journalist",
+        "tier": 3,
+        "workplace": "DailyMirror",
+        "link": "johncrossmirror"
+    },
+    {
+        "name": "David McDonnell",
+        "type": "journalist",
+        "tier": 4,
+        "workplace": "Mirror",
+        "link": "DiscoMirror"
+    },
+    {
+        "name": "Alan Nixon (1 for youth/low lvl)",
+        "type": "journalist",
+        "tier": 4,
+        "workplace": "TheS*n",
+        "link": "reluctantnicko"
+    },
+    {
+        "name": "James Robson (3 for definite news)",
+        "type": "journalist",
+        "tier": 4,
+        "workplace": "GOAL",
+        "link": "jamesalanrobson"
+    },
+    {
+        "name": "Fred Caldeira (reliable for Andreas)",
+        "type": "journalist",
+        "tier": 4,
+        "workplace": "TNT Sports",
+        "link": "fredcaldeira"
+    },
+    {
+        "name": "Constantin Eckner",
+        "type": "journalist",
+        "tier": 4,
+        "workplace": "TheTimes",
+        "link": "cc_eckner"
+    },
+    {
+        "name": "Neil Custis (sometimes, more often 5)",
+        "type": "journalist",
+        "tier": 4,
+        "workplace": "TheS*n",
+        "link": "ncustisTheSun"
+    },
+    {
+        "name": "Duncan Castles (reliable for Mendes/TheTimes)",
+        "type": "journalist",
+        "tier": 4,
+        "workplace": "TheTimes/DailyRecord",
+        "link": "DuncanCastles"
+    },
+    {
+        "name": "Jonathan Shrager",
+        "type": "journalist",
+        "tier": 4,
+        "workplace": "Twitter",
+        "link": "JonathanShrager"
+    },
+    {
+        "name": "Steve Bates",
+        "type": "journalist",
+        "tier": 4,
+        "workplace": "TheMirror",
+        "link": "stevebates"
+    },
+    {
+        "name": "Pete O'Rourke",
+        "type": "journalist",
+        "tier": 4,
+        "workplace": "FootballInsider",
+        "link": "sportspeteo"
+    },
+    {
+        "name": "Guillem Balague (okay for Spain)",
+        "type": "journalist",
+        "tier": 4,
+        "workplace": "BBC",
+        "link": "GuillemBalague"
+    },
+    {
+        "name": "Phil Thomas",
+        "type": "journalist",
+        "tier": 5,
+        "workplace": "TheS*n",
+        "link": ""
+    },
+    {
+        "name": "Harry Pratt",
+        "type": "journalist",
+        "tier": 5,
+        "workplace": "TheDailyStar",
+        "link": "gharrypratt"
+    },
+    {
+        "name": "Jeremy Cross",
+        "type": "journalist",
+        "tier": 5,
+        "workplace": "TheDailyStar",
+        "link": "CrossyDailyStar"
+    },
+    {
+        "name": "Pedro Almeida",
+        "type": "journalist",
+        "tier": 5,
+        "workplace": "twitter",
+        "link": "pedrogva6"
+    },
+    {
+        "name": "Tom Hopkinson",
+        "type": "journalist",
+        "tier": 5,
+        "workplace": "TheMirror",
+        "link": "TomHopkinson"
+    },
+    {
+        "name": "Tom McDermott",
+        "type": "journalist",
+        "tier": 5,
+        "workplace": "unemployed",
+        "link": "mrtommcdermott"
+    },
+    {
+        "name": "Sam Pilger",
+        "type": "journalist",
+        "tier": 5,
+        "workplace": "Forbes",
+        "link": "sampilger"
+    },
+    {
+        "name": "Jacque Talbot",
+        "type": "journalist",
+        "tier": 5,
+        "workplace": "FootballTransfers",
+        "link": "jac_talbot"
+    },
+    {
+        "name": "Christian Falk",
+        "type": "journalist",
+        "tier": 5,
+        "workplace": "Bild",
+        "link": "cfbayern"
+    },
+    {
+        "name": "Indy Kaila",
+        "type": "journalist",
+        "tier": 5,
+        "workplace": "KFC",
+        "link": "indykaila"
+    },
+    {
+        "name": "Angelo Mangiante",
+        "type": "journalist",
+        "tier": 5,
+        "workplace": "SkyItaly",
+        "link": "angelomangiante"
+    },
+    {
+        "name": "Wayne Veysey (rare hits)",
+        "type": "journalist",
+        "tier": 5,
+        "workplace": "FootballInsider",
+        "link": "footyinsider247"
+    },
+    {
+        "name": "Kaveh Solhekol",
+        "type": "journalist",
+        "tier": 5,
+        "workplace": "SkySports",
+        "link": "SkyKaveh"
+    },
+    {
+        "name": "United Journal",
+        "tier": "aggregator",
+        "link": "theutdjournal"
+    },
+    {
+        "name": "utdreport",
+        "tier": "aggregator",
+        "link": "utdreport"
+    },
+    {
+        "name": "UnitedDistrict",
+        "tier": "aggregator",
+        "link": "utddistrict"
+    }
+]
