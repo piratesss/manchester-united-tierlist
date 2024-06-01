@@ -1,6 +1,6 @@
 import { promises as fs } from 'fs';
 
-import TierList from '@/app/TierList';
+import TierList from '@/app/components/TierList';
 
 async function getData() {
     const file = await fs.readFile(process.cwd() + '/app/data/tierList.json', 'utf8');

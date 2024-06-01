@@ -14,7 +14,7 @@
         "workplace": "PA, The Independent",
         "link": "SimonPeach",
         "region": "England",
-        "club": "Manchester Unied"
+        "club": ["Manchester Unied"]
     },
     {
         "name": "Craig Norwood",
@@ -32,7 +32,7 @@
         "link": "TelegraphDucker",
         "region": "England",
         "suspect": true,
-        "club": "Manchester United, Manchester City"
+        "club": ["Manchester United, Manchester City"]
     },
     {
         "name": "Gaston Edul",
@@ -65,7 +65,7 @@
         "workplace": "The Times",
         "link": "_pauljoyce",
         "region": "England",
-        "club": "Liverpool, Everton"
+        "club": ["Liverpool, Everton"]
     },
     {
         "name": "Kristof Terreur",
@@ -90,7 +90,7 @@
         "workplace": "Deportes Cope",
         "link": "AranchaMOBILE",
         "region": "Spain",
-        "club": "Real Madrid"
+        "club": ["Real Madrid"]
     },
     {
         "name": "Sam Lee",
@@ -99,7 +99,7 @@
         "workplace": "The Athletic",
         "link": "SamLee",
         "region": "England",
-        "club": "Manchester City"
+        "club": ["Manchester City"]
     },
     {
         "name": "Romeo Agresti",
@@ -108,7 +108,7 @@
         "workplace": "GOAL Italia, Goal",
         "link": "romeoagresti",
         "region": "Italy",
-        "club": "Juventus"
+        "club": ["Juventus"]
     },
     {
         "name": "John Percy",
@@ -134,7 +134,7 @@
         "workplace": "The Athletic",
         "link": "lauriewhitwell",
         "region": "England",
-        "club": "Manchester Unied"
+        "club": ["Manchester Unied"]
     },
     {
         "name": "BBC",

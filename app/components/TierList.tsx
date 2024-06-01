@@ -4,7 +4,8 @@ import Image from 'next/image';
 import React, { useState } from 'react';
 import { SourcesInterface, TierListInterface } from '@/app/interface';
 
-import { findFlag } from './utils';
+import { findFlag } from '../utils';
+import { Tier0 } from './Tier0';
 
 const List: React.FC<TierListInterface> = ({ data }) => {
     const [searchTerm, setSearchTerm] = useState('');
@@ -29,6 +30,8 @@ const List: React.FC<TierListInterface> = ({ data }) => {
     return (
         <div>
             <input type="text" value={searchTerm} onChange={handleSearch} placeholder="Search" />
+
+            <Tier0 />
             <ul>
                 {filteredData.map((item: SourcesInterface, index: number) => (
                     <>

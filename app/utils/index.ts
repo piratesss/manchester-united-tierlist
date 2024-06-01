@@ -4,7 +4,7 @@ export const turnToLowercase = (value: string) => {
     return value?.toLowerCase();
 };
 
-export const flags: { [key: string]: any } = {
+export const FLAGS: { [key: string]: any } = {
     england: England,
     italy: Italy,
     france: France,
@@ -15,8 +15,8 @@ export const flags: { [key: string]: any } = {
 export const findFlag = (country: string) => {
     const countryToLowercase = turnToLowercase(country);
 
-    if (Object.keys(flags).includes(countryToLowercase)) {
-        return flags[countryToLowercase];
+    if (Object.keys(FLAGS).includes(countryToLowercase)) {
+        return FLAGS[countryToLowercase];
     }
 
     return undefined;
