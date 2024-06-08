@@ -367,25 +367,5 @@
             "link": "telefoot_TF1",
             "region": "France"
         }
-    ],
-    "tier_three": [
-        {
-            "name": "Simonssss Bsbu",
-            "type": "reporter",
-            "tier": 2,
-            "workplace": "BBC",
-            "link": "ok",
-            "region": "India"
-        }
-    ],
-    "tier_four": [
-        {
-            "name": "Simon Bsbuwgwoieigj",
-            "type": "reporter",
-            "tier": 2,
-            "workplace": "BBC",
-            "link": "ok",
-            "region": "India"
-        }
     ]
 }

@@ -3,6 +3,14 @@ import Facebook from './facebook.svg';
 import Instagram from './instagram.svg';
 
 import Manutd from './manutd.png';
+import Mancity from './mancity.svg';
+import Liverpool from './liverpool.png';
+import Everton from './everton.svg';
+import Realmadrid from './realmadrid.svg';
+import Juventus from './juventus.svg';
+import BayernMunich from './bayernmunich.png';
+import Chelsea from './chelsea.png';
+import BVB from './BVB.png';
 
 import Spain from './spain.png';
 import Italy from './italy.png';
@@ -26,4 +34,12 @@ export {
     Germany,
     Uruguay,
     Netherlands,
+    Mancity,
+    Liverpool,
+    Everton,
+    Realmadrid,
+    Juventus,
+    BayernMunich,
+    Chelsea,
+    BVB,
 };
