@@ -1,4 +1,4 @@
-import { Argentina, England, France, Italy, Spain } from '@/public';
+import { Argentina, England, France, Italy, Spain, Germany, Uruguay, Netherlands } from '@/public';
 
 export const turnToLowercase = (value: string) => {
     return value?.toLowerCase();
@@ -10,6 +10,9 @@ export const FLAGS: { [key: string]: any } = {
     france: France,
     argentina: Argentina,
     spain: Spain,
+    germany: Germany,
+    uruguay: Uruguay,
+    netherlands: Netherlands,
 };
 
 export const findFlag = (country: string) => {
