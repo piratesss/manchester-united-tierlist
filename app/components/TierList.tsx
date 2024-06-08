@@ -3,9 +3,9 @@
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 
-import { findClub, findFlag } from '../utils';
 import { Tier0, Img, SearchField } from '@/app/components';
 import { SourcesInterface, TierListInterface } from '@/app/interface';
+import { capitalizeFirstLetter, findClub, findFlag } from '@/app/utils';
 
 const List: React.FC<TierListInterface> = ({ data }) => {
     const [searchTerm, setSearchTerm] = useState('');
@@ -45,7 +45,7 @@ const List: React.FC<TierListInterface> = ({ data }) => {
                 <>
                     <hr />
                     <div key={tierName} className={tierListClass}>
-                        <h2>{tierName.replace('_', ' ')}</h2>
+                        <h2>{capitalizeFirstLetter(tierName.replace('_', ' '))}</h2>
                         <ul className="grid grid-cols-1 3xl:grid-cols-3 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-1 md:grid-cols-2 sm:grid-cols-2">
                             {tierData?.map((item, index) => (
                                 <Link
