@@ -33,5 +33,7 @@ JSON structure
 
 ## Contributing to manchester-united-tierlist
 
-If you feel the info does not match or needs updating please feel free to update the
-JSON values and create a pull request or add new entries if necessary.
+-   If you feel the info does not match or needs updating please feel free to update the JSON values and create a pull
+    request or add new entries if necessary following the JSON strucure above.
+
+*   If you are adding images please add it in the public folder, import it in the public/index.ts and then based on the image being a club or country use it in app/utils.
