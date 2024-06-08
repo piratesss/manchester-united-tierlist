@@ -3,8 +3,8 @@
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 
-import { Tier0, Img, SearchField, ScrollToTop } from '@/app/components';
 import { SourcesInterface, TierListInterface } from '@/app/interface';
+import { Tier0, Img, SearchField, ScrollToTop } from '@/app/components';
 import { capitalizeFirstLetter, findClub, findFlag } from '@/app/utils';
 
 const List: React.FC<TierListInterface> = ({ data }) => {
@@ -131,9 +131,8 @@ const List: React.FC<TierListInterface> = ({ data }) => {
         <div>
             <Tier0 />
 
-            <div className="flex gap-5 items-center justify-center">
+            <div className="bg-background flex gap-5 items-center justify-center sticky top-0 z-10 w-full p-4">
                 <SearchField searchTerm={searchTerm} handleSearch={handleSearch} />
-                {/* <h3>dropdown</h3> */}
             </div>
 
             <div className="py-4">
