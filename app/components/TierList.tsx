@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 
-import { findFlag } from '../utils';
+import { findClub, findFlag } from '../utils';
 import { Tier0, Img, SearchField } from '@/app/components';
 import { SourcesInterface, TierListInterface } from '@/app/interface';
 
@@ -72,14 +72,21 @@ const List: React.FC<TierListInterface> = ({ data }) => {
                                     <i>{item.workplace}</i>
 
                                     {Array.isArray(item?.club) && item?.club.length > 0 ? (
-                                        <p>
+                                        <div className="flex items-center py-2">
                                             {item.club.map((club, clubIndex) => (
-                                                <span key={club} className="mr-2">
-                                                    {club}
-                                                    {clubIndex !== item.club!.length - 1 && ','}
+                                                <span key={clubIndex} className="mr-2">
+                                                    {findClub(club) ? (
+                                                        <Img
+                                                            src={findClub(club)}
+                                                            alt={`Flag of ${item.region}`}
+                                                            type={'flag'}
+                                                        />
+                                                    ) : (
+                                                        <span>{club}</span>
+                                                    )}
                                                 </span>
                                             ))}
-                                        </p>
+                                        </div>
                                     ) : (
                                         <p />
                                     )}
@@ -104,7 +111,7 @@ const List: React.FC<TierListInterface> = ({ data }) => {
 
             <div className="flex gap-5 items-center justify-center">
                 <SearchField searchTerm={searchTerm} handleSearch={handleSearch} />
-                <h3>dropdown</h3>
+                {/* <h3>dropdown</h3> */}
             </div>
 
             <div className="py-4">
