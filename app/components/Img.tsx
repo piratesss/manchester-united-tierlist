@@ -6,14 +6,24 @@ import { FC } from 'react';
 interface ImgProps {
     src: StaticImageData;
     alt: string;
+    className?: string;
+    type?: string;
 }
 
 const Img: FC<ImgProps> = props => {
-    const { src, alt } = props;
+    const { src, alt, className, type } = props;
+
+    const imgValues = type === 'flag' ? 20 : 30;
 
     return (
         <>
-            <Image src={src} width={30} height={30} alt={`Picture of the ${alt}`} />
+            <Image
+                src={src}
+                width={imgValues}
+                height={imgValues}
+                alt={`Picture of the ${alt}`}
+                className={className + ' object-contain'}
+            />
         </>
     );
 };
