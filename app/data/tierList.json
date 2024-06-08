@@ -148,12 +148,224 @@
     ],
     "tier_two": [
         {
-            "name": "Simon Bsbu",
+            "name": "Adam Crafton",
             "type": "reporter",
             "tier": 2,
-            "workplace": "BBC",
-            "link": "ok",
-            "region": "India"
+            "workplace": "The Athletic",
+            "link": "AdamCrafton_"
+        },
+        {
+            "name": "Rob Dawson",
+            "tier": 2,
+            "workplace": "ESPN",
+            "link": "RobDawsonESPN",
+            "club": ["Manchester United", "Manchester City"]
+        },
+        {
+            "name": "Gianluca Di Marzio",
+            "type": "reporter",
+            "tier": 2,
+            "workplace": "Sky Sports",
+            "link": "DiMarzio",
+            "region": "Italy"
+        },
+        {
+            "name": "Charlotte Duncker",
+            "type": "reporter",
+            "tier": 2,
+            "workplace": "The Times",
+            "link": "CharDuncker"
+        },
+        {
+            "name": "Sebastian Giovanelli",
+            "type": "journalist",
+            "tier": 2,
+            "workplace": "ESPN, Sport890, canal10Uruguay",
+            "link": "sebasgiovanelli",
+            "region": "Uruguay"
+        },
+        {
+            "name": "Kerry Hau",
+            "type": "reporter",
+            "tier": 2,
+            "workplace": "Sky Sports",
+            "link": "kerry_hau",
+            "region": "Germany",
+            "club": ["Bayern Munich"]
+        },
+        {
+            "name": "Fabrice Hawkins",
+            "type": "journalist",
+            "tier": 2,
+            "workplace": "RMC Sport",
+            "link": "FabriceHawkins",
+            "region": "France"
+        },
+        {
+            "name": "Paul Hirst",
+            "type": "reporter",
+            "tier": 2,
+            "workplace": "The Times",
+            "link": "hirstclass",
+            "club": ["Manchester United", "Manchester City"],
+            "region": "England"
+        },
+        {
+            "name": "Raphael Honigstein",
+            "type": "journalist",
+            "tier": 2,
+            "workplace": "Germany Freelancer/Guardian German News",
+            "link": "honigstein",
+            "region": "Germany"
+        },
+        {
+            "name": "Matt Law",
+            "type": "reporter",
+            "tier": 2,
+            "workplace": "The Telegraph",
+            "link": "Matt_Law_DT",
+            "club": ["Chelsea"]
+        },
+        {
+            "name": "Mike McGrath",
+            "type": "reporter",
+            "tier": 2,
+            "workplace": "The Telegraph",
+            "link": "mcgrathmike"
+        },
+        {
+            "name": "Andy Mitten",
+            "type": "reporter",
+            "tier": 2,
+            "workplace": "Various",
+            "link": "AndyMitten"
+        },
+        {
+            "name": "MoisESPN",
+            "type": "reporter",
+            "tier": 2,
+            "workplace": "ESPN",
+            "link": "moillorens",
+            "region": "Spain"
+        },
+        {
+            "name": "Sami Mokbel",
+            "type": "reporter",
+            "tier": 2,
+            "workplace": "Daily Mail",
+            "link": "SamiMokbel81_DM"
+        },
+        {
+            "name": "Fabrizio Romano",
+            "type": "reporter",
+            "tier": 2,
+            "workplace": "Freelance/Guardian",
+            "link": "ok"
+        },
+        {
+            "name": "Lee Ryder",
+            "type": "reporter",
+            "tier": 2,
+            "workplace": "Freelancer",
+            "link": "FabrizioRomano"
+        },
+        {
+            "name": "Loic Tanzi",
+            "type": "reporter",
+            "tier": 2,
+            "workplace": "L’Equipe",
+            "link": "Tanziloic",
+            "region": "France"
+        },
+        {
+            "name": "The Telegraph",
+            "type": "publication",
+            "tier": 2,
+            "workplace": "The Telegraph",
+            "link": "Telegraph",
+            "region": "England"
+        },
+        {
+            "name": "Sport1",
+            "type": "publication",
+            "tier": 2,
+            "workplace": "Sport1",
+            "link": "SPORT1",
+            "region": "Germany"
+        },
+        {
+            "name": "Ruhr Nachrichten",
+            "type": "publication",
+            "tier": 2,
+            "workplace": "BVB",
+            "link": "RNBVB",
+            "region": "Germany",
+            "club": ["BVB"]
+        },
+        {
+            "name": "Der Westen",
+            "type": "publication",
+            "tier": 2,
+            "workplace": "Germany/Schalke/Gladbach/Dortmund",
+            "link": "www.derwesten.de/",
+            "region": "Germany",
+            "not_twitter_link": true
+        },
+        {
+            "name": "Kicker",
+            "type": "publication",
+            "tier": 2,
+            "workplace": "Kicker",
+            "link": "kicker",
+            "region": "Germany"
+        },
+        {
+            "name": "De Telegraaf",
+            "type": "publication",
+            "tier": 2,
+            "workplace": "Netherlands",
+            "link": "telegraaf",
+            "region": "Netherlands"
+        },
+        {
+            "name": "Voetbal International",
+            "type": "publication",
+            "tier": 2,
+            "workplace": "Netherlands",
+            "link": "VI_nl",
+            "region": "Netherlands"
+        },
+        {
+            "name": "COPE",
+            "type": "publication",
+            "tier": 2,
+            "workplace": "Spain",
+            "link": "COPE",
+            "region": "Spain"
+        },
+        {
+            "name": "Caderna SER",
+            "type": "publication",
+            "tier": 2,
+            "workplace": "Caderna SER",
+            "link": "la_ser",
+            "region": "Spain"
+        },
+        {
+            "name": "RMC Sport",
+            "type": "publication",
+            "tier": 2,
+            "workplace": "RMC Sport",
+            "link": "RMCsport",
+            "region": "France"
+        },
+        {
+            "name": "Telefoot",
+            "type": "publication",
+            "tier": 2,
+            "workplace": "Telefoot",
+            "link": "telefoot_TF1",
+            "region": "France"
         }
     ],
     "tier_three": [

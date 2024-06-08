@@ -51,7 +51,11 @@ const List: React.FC<TierListInterface> = ({ data }) => {
                                 <Link
                                     key={index}
                                     className="mb-4"
-                                    href={`https://www.twitter.com/${item?.link}`}
+                                    href={
+                                        item?.not_twitter_link
+                                            ? `https://${item?.link}`
+                                            : `https://www.twitter.com/${item?.link}`
+                                    }
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >
@@ -66,6 +70,19 @@ const List: React.FC<TierListInterface> = ({ data }) => {
                                         )}
                                     </div>
                                     <i>{item.workplace}</i>
+
+                                    {Array.isArray(item?.club) && item?.club.length > 0 ? (
+                                        <p>
+                                            {item.club.map((club, clubIndex) => (
+                                                <span key={club} className="mr-2">
+                                                    {club}
+                                                    {clubIndex !== item.club!.length - 1 && ','}
+                                                </span>
+                                            ))}
+                                        </p>
+                                    ) : (
+                                        <p />
+                                    )}
                                 </Link>
                             ))}
                         </ul>

@@ -7,6 +7,7 @@ export interface SourcesInterface {
     region?: string;
     club?: string;
     suspect?: boolean;
+    not_twitter_link?: boolean;
 }
 
 export interface TierListInterface {
