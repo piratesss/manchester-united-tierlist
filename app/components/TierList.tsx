@@ -30,21 +30,21 @@ const List: React.FC<TierListInterface> = ({ data }) => {
         }
     };
 
+    const tierListClass = `flex flex-col px-4 mb-4 mt-4 
+                            3xl:grid-cols-[200px_auto] 
+                            2xl:grid-cols-[200px_auto] 
+                            xl:grid-cols-[150px_auto] 
+                            lg:grid-cols-[150px_auto] 
+                            md:grid-cols-[150px_auto] 
+                            sm:grid grid-cols-[80px_auto]
+                            `;
+
     const renderList = (tierData: SourcesInterface[], tierName: string) => (
         <>
             {tierData?.length >= 1 && (
                 <>
                     <hr />
-                    <div
-                        key={tierName}
-                        className="grid grid-cols-[80px_auto] mb-4 mt-4 
-                                    3xl:grid-cols-[200px_auto] 
-                                    2xl:grid-cols-[200px_auto] 
-                                    xl:grid-cols-[150px_auto] 
-                                    lg:grid-cols-[80px_auto] 
-                                    md:grid-cols-[150px_auto] 
-                                    sm:grid-cols-[150px_auto]"
-                    >
+                    <div key={tierName} className={tierListClass}>
                         <h2>{tierName.replace('_', ' ')}</h2>
                         <ul className="grid grid-cols-1 3xl:grid-cols-3 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-1 md:grid-cols-2 sm:grid-cols-2">
                             {tierData?.map((item, index) => (
