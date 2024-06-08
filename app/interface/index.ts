@@ -6,7 +6,6 @@ export interface SourcesInterface {
     link: string;
     region?: string;
     club?: string;
-    suspect?: boolean;
     not_twitter_link?: boolean;
 }
 
