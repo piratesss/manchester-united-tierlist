@@ -643,5 +643,195 @@
             "link": "talkSPORT",
             "region": "England"
         }
+    ],
+    "tier_four": [
+        {
+            "name": "David Amoyal",
+            "type": "writer",
+            "tier": 4,
+            "workplace": "Calcioland",
+            "link": "DavidAmoyal"
+        },
+        {
+            "name": "Guillem Balague",
+            "type": "reporter",
+            "tier": 4,
+            "workplace": "CBS Golazo",
+            "link": "GuillemBalague"
+        },
+        {
+            "name": "Pietro Balzano Prota",
+            "type": "journalist",
+            "tier": 4,
+            "workplace": "Radio Rossonera",
+            "link": "PBPcalcio",
+            "region": "Italy",
+            "club": ["AC Milan", " - t1 for AC Milan"]
+        },
+        {
+            "name": "Jason Burt",
+            "type": "reporter",
+            "tier": 4,
+            "workplace": "Telegraph",
+            "link": "JBurtTelegraph"
+        },
+        {
+            "name": "Richard Keys",
+            "type": "anchor",
+            "tier": 4,
+            "workplace": "beIN Sports",
+            "link": "richardajkeys"
+        },
+        {
+            "name": "Stuart Mathieson",
+            "type": "reporter",
+            "tier": 4,
+            "workplace": "retired",
+            "link": "StuMathieson7",
+            "club": ["Manchester United"]
+        },
+        {
+            "name": "Sam Pilger",
+            "type": "reporter",
+            "tier": 4,
+            "workplace": "Forbes, 442",
+            "link": "sampilger"
+        },
+        {
+            "name": "Kaveh Solhekol",
+            "type": "reporter",
+            "tier": 4,
+            "workplace": "Sky Sports",
+            "link": "skykaveh"
+        },
+        {
+            "name": "Evening Standard",
+            "type": "publication",
+            "tier": 4,
+            "workplace": "United Kingdom",
+            "link": "EveningStandard",
+            "region": "England"
+        },
+        {
+            "name": "The Independent",
+            "type": "publication",
+            "tier": 4,
+            "workplace": "United Kingdom",
+            "link": "Independent",
+            "region": "England"
+        },
+        {
+            "name": "Goal.com",
+            "type": "publication",
+            "tier": 4,
+            "workplace": "Goal",
+            "link": "goal"
+        },
+        {
+            "name": "BildSport",
+            "type": "publication",
+            "tier": 4,
+            "workplace": "Germany",
+            "link": "BILD_Sport",
+            "region": "Germany"
+        },
+        {
+            "name": "Mundo Deportivo",
+            "type": "publication",
+            "tier": 4,
+            "workplace": "Spain",
+            "link": "Mundo Deportivo",
+            "region": "Spain"
+        },
+        {
+            "name": "Marca",
+            "type": "publication",
+            "tier": 4,
+            "workplace": "Marca",
+            "link": "marca",
+            "region": "Spain",
+            "club": ["Real Madrid", " - t1 for Real Madrid"]
+        },
+        {
+            "name": "AS",
+            "type": "publication",
+            "tier": 4,
+            "workplace": "diarioas AS",
+            "link": "diarioas",
+            "region": "Spain",
+            "club": ["Real Madrid", " - t1 for Real Madrid"]
+        },
+        {
+            "name": "Diario SPORT",
+            "type": "publication",
+            "tier": 4,
+            "workplace": "Diario SPORT",
+            "link": "sport",
+            "region": "Spain"
+        },
+        {
+            "name": "El Chiringuito",
+            "type": "publication",
+            "tier": 4,
+            "workplace": "Spain unless JL Sanchez, then T1",
+            "link": "elchiringuitotv",
+            "region": "Spain"
+        },
+        {
+            "name": "Correio de Manha",
+            "type": "publication",
+            "tier": 4,
+            "workplace": "Correio de Manha",
+            "link": "cmjornal",
+            "region": "Portugal"
+        },
+        {
+            "name": "A Bola",
+            "type": "publication",
+            "tier": 4,
+            "workplace": "A Bola",
+            "link": "abolapt",
+            "region": "Portugal"
+        },
+        {
+            "name": "Record",
+            "type": "publication",
+            "tier": 4,
+            "workplace": "Record Portugal",
+            "link": "Record_Portugal",
+            "region": "Portugal"
+        },
+        {
+            "name": "Tuttosport",
+            "type": "publication",
+            "tier": 4,
+            "workplace": "Tuttosport",
+            "link": "tuttosport",
+            "region": "Italy"
+        },
+        {
+            "name": "Tuttomercatoweb",
+            "type": "Tuttomercatoweb",
+            "tier": 4,
+            "workplace": "Italy",
+            "link": "TuttoMercatoWeb",
+            "region": "Italy"
+        },
+        {
+            "name": "CalcioMercato",
+            "type": "publication",
+            "tier": 4,
+            "workplace": "CalcioMercato",
+            "link": "cmdotcom",
+            "region": "Italy"
+        },
+        {
+            "name": "L'Equipe",
+            "type": "publication",
+            "tier": 4,
+            "workplace": "L'Equipe",
+            "link": "lequipe",
+            "region": "France"
+        }
     ]
 }

@@ -6,6 +6,7 @@ import Instagram from './instagram.svg';
 
 import BVB from './BVB.png';
 import Manutd from './manutd.png';
+import AcMilan from './ac_milan.svg';
 import Schalke from './schalke.svg';
 import Mancity from './mancity.svg';
 import Everton from './everton.svg';
@@ -35,6 +36,7 @@ export {
     France,
     Manutd,
     Brazil,
+    AcMilan,
     England,
     Schalke,
     Twitter,

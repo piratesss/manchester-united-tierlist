@@ -21,6 +21,7 @@ import {
     Porgugal,
     Schalke,
     Gladbach,
+    AcMilan,
 } from '@/public';
 
 export const turnToLowercase = (value: string) => {
@@ -53,6 +54,7 @@ export const CLUBS: { [key: string]: any } = {
     'west ham united': WestHamUnited,
     schalke: Schalke,
     gladbach: Gladbach,
+    'ac milan': AcMilan,
 };
 
 export const findFlag = (country: string) => {
