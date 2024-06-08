@@ -16,6 +16,11 @@ import {
     BayernMunich,
     Chelsea,
     BVB,
+    Brazil,
+    WestHamUnited,
+    Porgugal,
+    Schalke,
+    Gladbach,
 } from '@/public';
 
 export const turnToLowercase = (value: string) => {
@@ -31,6 +36,8 @@ export const FLAGS: { [key: string]: any } = {
     germany: Germany,
     uruguay: Uruguay,
     netherlands: Netherlands,
+    brazil: Brazil,
+    portugal: Porgugal,
 };
 
 export const CLUBS: { [key: string]: any } = {
@@ -43,6 +50,9 @@ export const CLUBS: { [key: string]: any } = {
     'bayern munich': BayernMunich,
     chelsea: Chelsea,
     bvb: BVB,
+    'west ham united': WestHamUnited,
+    schalke: Schalke,
+    gladbach: Gladbach,
 };
 
 export const findFlag = (country: string) => {
