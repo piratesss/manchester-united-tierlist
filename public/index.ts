@@ -1,45 +1,58 @@
+import UpArrow from './upArrow.svg';
+
 import Twitter from './twitter.svg';
 import Facebook from './facebook.svg';
 import Instagram from './instagram.svg';
 
-import Manutd from './manutd.png';
-import Mancity from './mancity.svg';
-import Liverpool from './liverpool.png';
-import Everton from './everton.svg';
-import Realmadrid from './realmadrid.svg';
-import Juventus from './juventus.svg';
-import BayernMunich from './bayernmunich.png';
-import Chelsea from './chelsea.png';
 import BVB from './BVB.png';
+import Manutd from './manutd.png';
+import Schalke from './schalke.svg';
+import Mancity from './mancity.svg';
+import Everton from './everton.svg';
+import Chelsea from './chelsea.png';
+import Gladbach from './gladbach.svg';
+import Juventus from './juventus.svg';
+import Liverpool from './liverpool.png';
+import Realmadrid from './realmadrid.svg';
+import BayernMunich from './bayernmunich.png';
+import WestHamUnited from './west_ham_united.svg';
 
 import Spain from './spain.png';
 import Italy from './italy.png';
+import Brazil from './brazil.png';
 import France from './france.png';
 import England from './england.png';
-import Argentina from './argentina.png';
 import Germany from './germany.png';
 import Uruguay from './uruguay.png';
+import Porgugal from './portugal.svg';
+import Argentina from './argentina.png';
 import Netherlands from './netherlands.svg';
 
 export {
-    England,
+    BVB,
     Italy,
-    France,
-    Argentina,
     Spain,
-    Facebook,
-    Instagram,
+    France,
     Manutd,
+    Brazil,
+    England,
+    Schalke,
     Twitter,
     Germany,
     Uruguay,
-    Netherlands,
     Mancity,
-    Liverpool,
     Everton,
-    Realmadrid,
-    Juventus,
-    BayernMunich,
     Chelsea,
-    BVB,
+    UpArrow,
+    Gladbach,
+    Facebook,
+    Juventus,
+    Porgugal,
+    Argentina,
+    Instagram,
+    Liverpool,
+    Realmadrid,
+    Netherlands,
+    BayernMunich,
+    WestHamUnited,
 };

@@ -3,7 +3,7 @@
 import Link from 'next/link';
 import React, { useState, useEffect } from 'react';
 
-import { Tier0, Img, SearchField } from '@/app/components';
+import { Tier0, Img, SearchField, ScrollToTop } from '@/app/components';
 import { SourcesInterface, TierListInterface } from '@/app/interface';
 import { capitalizeFirstLetter, findClub, findFlag } from '@/app/utils';
 
@@ -47,57 +47,79 @@ const List: React.FC<TierListInterface> = ({ data }) => {
                     <div key={tierName} className={tierListClass}>
                         <h2>{capitalizeFirstLetter(tierName.replace('_', ' '))}</h2>
                         <ul className="grid grid-cols-1 3xl:grid-cols-3 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-1 md:grid-cols-2 sm:grid-cols-2">
-                            {tierData?.map((item, index) => (
-                                <Link
-                                    key={index}
-                                    className="mb-4"
-                                    href={
-                                        item?.not_twitter_link
-                                            ? `https://${item?.link}`
-                                            : `https://www.twitter.com/${item?.link}`
-                                    }
-                                    target="_blank"
-                                    rel="noopener noreferrer"
-                                >
-                                    <div className="flex mb-2 mt-2">
-                                        <h3 className="mr-2">{item.name}</h3>
-                                        {item.region && (
-                                            <Img
-                                                src={findFlag(item.region)}
-                                                alt={`Flag of ${item.region}`}
-                                                type={'flag'}
-                                            />
-                                        )}
-                                    </div>
-                                    <i>{item.workplace}</i>
+                            {tierData?.map((item, index) => {
+                                const isLinkEmpty = !item?.link;
+                                const link = item?.not_twitter_link
+                                    ? `https://${item?.link}`
+                                    : `https://www.twitter.com/${item?.link}`;
 
-                                    {Array.isArray(item?.club) && item?.club.length > 0 ? (
-                                        <div className="flex items-center py-2">
-                                            {item.club.map((club, clubIndex) => (
-                                                <span key={clubIndex} className="mr-2">
-                                                    {findClub(club) ? (
-                                                        <Img
-                                                            src={findClub(club)}
-                                                            alt={`Flag of ${item.region}`}
-                                                            type={'flag'}
-                                                        />
-                                                    ) : (
-                                                        <span>{club}</span>
-                                                    )}
-                                                </span>
-                                            ))}
+                                return (
+                                    <div className="mb-4">
+                                        <div className="flex mb-2 mt-2">
+                                            <h3
+                                                className={`mr-2 ${
+                                                    isLinkEmpty ? 'cursor-not-allowed' : ''
+                                                }`}
+                                            >
+                                                {isLinkEmpty ? (
+                                                    item?.name
+                                                ) : (
+                                                    <Link
+                                                        href={link}
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        className="h2"
+                                                    >
+                                                        {item?.name}
+                                                    </Link>
+                                                )}
+                                            </h3>
+                                            {item.region && (
+                                                <Img
+                                                    src={findFlag(item.region)}
+                                                    alt={`Flag of ${item.region}`}
+                                                    type={'flag'}
+                                                />
+                                            )}
                                         </div>
-                                    ) : (
-                                        <p />
-                                    )}
-                                </Link>
-                            ))}
+
+                                        <i>{item.workplace}</i>
+                                        {getClubDetails(item)}
+                                    </div>
+                                );
+                            })}
                         </ul>
                     </div>
                 </>
             )}
         </>
     );
+
+    const getClubDetails = (item: SourcesInterface) => {
+        return (
+            <>
+                {Array.isArray(item?.club) && item?.club.length > 0 ? (
+                    <div className="flex items-center py-2">
+                        {item.club.map((club, clubIndex) => (
+                            <span key={clubIndex} className="mr-2">
+                                {findClub(club) ? (
+                                    <Img
+                                        src={findClub(club)}
+                                        alt={`Flag of ${item.region}`}
+                                        type={'flag'}
+                                    />
+                                ) : (
+                                    <span>{club}</span>
+                                )}
+                            </span>
+                        ))}
+                    </div>
+                ) : (
+                    <p />
+                )}
+            </>
+        );
+    };
 
     useEffect(() => {
         if (data) {
@@ -120,6 +142,8 @@ const List: React.FC<TierListInterface> = ({ data }) => {
                     renderList(filteredData[tier], tier)
                 )}
             </div>
+
+            <ScrollToTop />
         </div>
     );
 };

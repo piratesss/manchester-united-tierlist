@@ -214,7 +214,7 @@
             "name": "Raphael Honigstein",
             "type": "journalist",
             "tier": 2,
-            "workplace": "Germany Freelancer/Guardian German News",
+            "workplace": "N/A",
             "link": "honigstein",
             "region": "Germany"
         },
@@ -306,10 +306,11 @@
             "name": "Der Westen",
             "type": "publication",
             "tier": 2,
-            "workplace": "Germany/Schalke/Gladbach/Dortmund",
+            "workplace": "derwesten.de",
             "link": "www.derwesten.de/",
             "region": "Germany",
-            "not_twitter_link": true
+            "not_twitter_link": true,
+            "club": ["Schalke", "Gladbach", "BVB"]
         },
         {
             "name": "Kicker",
@@ -366,6 +367,281 @@
             "workplace": "Telefoot",
             "link": "telefoot_TF1",
             "region": "France"
+        }
+    ],
+    "tier_three": [
+        {
+            "name": "Patrick Berger",
+            "type": "reporter",
+            "tier": 3,
+            "workplace": "Sky Sports",
+            "link": "berger_pj"
+        },
+        {
+            "name": "Constantin Eckner",
+            "type": "commentator",
+            "tier": 3,
+            "workplace": "Various",
+            "link": "cc_eckner"
+        },
+        {
+            "name": "Rich Fay",
+            "type": "reporter",
+            "tier": 3,
+            "workplace": "Manchester United reporter",
+            "link": "RichFay",
+            "club": ["Manchester United", "- youth"]
+        },
+        {
+            "name": "Fredrik A. Filtvedt",
+            "type": "Journalist",
+            "tier": 3,
+            "workplace": "Various",
+            "link": "FAFiltvedt"
+        },
+        {
+            "name": "Jose Felix Diaz",
+            "type": "reporter",
+            "tier": 3,
+            "workplace": "Marca",
+            "link": "jfelixdiaz",
+            "region": "Spain",
+            "club": ["Real Madrid"]
+        },
+        {
+            "name": "Jan Aage Fjortoft",
+            "type": "reporter",
+            "tier": 3,
+            "workplace": "Various",
+            "link": "JanAageFjortoft"
+        },
+        {
+            "name": "Dan Harris",
+            "type": "reporter",
+            "tier": 3,
+            "workplace": "10 percent",
+            "link": "danbharris"
+        },
+        {
+            "name": "Ian Herbert",
+            "type": "journalist",
+            "tier": 3,
+            "workplace": "Daily Mail",
+            "link": "ianherbs"
+        },
+        {
+            "name": "Adrian Kajumba",
+            "type": "writer",
+            "tier": 3,
+            "workplace": "Daily Mail",
+            "link": "AdrianJKajumba"
+        },
+        {
+            "name": "Mike Keegan",
+            "type": "reporter",
+            "tier": 3,
+            "workplace": "Daily Mail",
+            "link": "MikeKeegan_DM"
+        },
+        {
+            "name": "Nizaar Kinsella",
+            "type": "journalist",
+            "tier": 3,
+            "workplace": "BBC",
+            "link": "NizaarKinsella"
+        },
+        {
+            "name": "Ian Ladyman",
+            "type": "reporter",
+            "tier": 3,
+            "workplace": "Mail Sport",
+            "link": "Ian_Ladyman_DM"
+        },
+        {
+            "name": "Julien Maynard",
+            "type": "N/A",
+            "tier": 3,
+            "workplace": "N/A",
+            "link": "JulienMaynard",
+            "region": "France"
+        },
+        {
+            "name": "Florian Plettenberg",
+            "type": "reporter",
+            "tier": 3,
+            "workplace": "Sky Sports",
+            "link": "Plettigoal",
+            "region": "Germany",
+            "club": ["Bayern Munich"]
+        },
+        {
+            "name": "Alfredo Pedullà",
+            "type": "reporter",
+            "tier": 3,
+            "workplace": "Sportitalia, tvdellosport",
+            "link": "AlfredoPedulla",
+            "region": "Italy"
+        },
+        {
+            "name": "Melissa Reddy",
+            "type": "reporter",
+            "tier": 3,
+            "workplace": "Sky Sports",
+            "link": "MelissaReddy_"
+        },
+        {
+            "name": "James Robson",
+            "type": "reporter",
+            "tier": 3,
+            "workplace": "Global Soccer",
+            "link": "jamesalanrobson"
+        },
+        {
+            "name": "James Savundra",
+            "type": "reporter",
+            "tier": 3,
+            "workplace": "Sky Sports",
+            "link": "JamesSavundra"
+        },
+        {
+            "name": "Dan Sheldon",
+            "type": "reporter",
+            "tier": 3,
+            "workplace": "The Athletic",
+            "link": "Dan_Sheldon_",
+            "club": ["Manchester United", "Manchester City"]
+        },
+        {
+            "name": "Dharmesh Sheth",
+            "type": "reporter",
+            "tier": 3,
+            "workplace": "Sky Sports",
+            "link": "skysports_sheth"
+        },
+        {
+            "name": "Raisa Simplicio",
+            "type": "reporter",
+            "tier": 3,
+            "workplace": "Goal Brazil",
+            "link": "simpraisa",
+            "region": "Brazil"
+        },
+        {
+            "name": "Thiago Fernandes",
+            "type": "reporter",
+            "tier": 3,
+            "workplace": "Goal Brazil",
+            "link": "thirfernandes",
+            "region": "Brazil"
+        },
+        {
+            "name": "Jacob Steinberg",
+            "type": "reporter",
+            "tier": 3,
+            "workplace": "The Guardian",
+            "link": "JacobSteinberg",
+            "club": ["Chelsea", "West Ham United"]
+        },
+        {
+            "name": "Daniel Taylor",
+            "type": "reporter",
+            "tier": 3,
+            "workplace": "The Athletic , NY Times",
+            "link": "DTathletic"
+        },
+        {
+            "name": "Marcel van Der Kraan",
+            "type": "reporter",
+            "tier": 3,
+            "workplace": "de Telegraaf",
+            "link": "VanderMarcel",
+            "region": "Netherlands"
+        },
+        {
+            "name": "Chris Wheeler",
+            "type": "writer",
+            "tier": 3,
+            "workplace": "Daily Mail",
+            "link": "ChrisWheelerDM"
+        },
+        {
+            "name": "Jim White",
+            "type": "broadcaster",
+            "tier": 3,
+            "workplace": "talkSPORT, Sky Sports News",
+            "link": "JimWhite",
+            "club": ["Everton"]
+        },
+        {
+            "name": "Ian Whittell",
+            "type": "reporter",
+            "tier": 3,
+            "workplace": "Telegraph",
+            "link": ""
+        },
+        {
+            "name": "The Guardian",
+            "type": "publication",
+            "tier": 3,
+            "workplace": "The Guardian",
+            "link": "guardian",
+            "region": "England"
+        },
+        {
+            "name": "The Times",
+            "type": "publication",
+            "tier": 3,
+            "workplace": "The Times",
+            "link": "thetimes",
+            "region": "England"
+        },
+        {
+            "name": "Bild",
+            "type": "publication",
+            "tier": 3,
+            "workplace": "Bild",
+            "link": "BILD",
+            "region": "Germany"
+        },
+        {
+            "name": "Relevo",
+            "type": "publication",
+            "tier": 3,
+            "workplace": "Relevo ",
+            "link": "relevo",
+            "region": "France"
+        },
+        {
+            "name": "Le Parisien",
+            "type": "publication",
+            "tier": 3,
+            "workplace": "Le Parisien",
+            "link": "le_Parisien",
+            "region": "France"
+        },
+        {
+            "name": "RTP",
+            "type": "publication",
+            "tier": 3,
+            "workplace": "RTP",
+            "link": "rtppt",
+            "region": "Portugal"
+        },
+        {
+            "name": "O J0ogo",
+            "type": "publication",
+            "tier": 3,
+            "workplace": "Portugal",
+            "link": "ojogo",
+            "region": "Portugal"
+        },
+        {
+            "name": "Talksport sources",
+            "type": "publication",
+            "tier": 3,
+            "workplace": "talkSPORT",
+            "link": "talkSPORT",
+            "region": "England"
         }
     ]
 }
