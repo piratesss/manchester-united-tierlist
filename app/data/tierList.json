@@ -366,6 +366,14 @@
             "workplace": "Telefoot",
             "link": "telefoot_TF1",
             "region": "France"
+        },
+        {
+            "name": "Nizaar Kinsella",
+            "type": "journalist",
+            "tier": 2,
+            "workplace": "BBC",
+            "link": "NizaarKinsella",
+            "club": ["Chelsea"]
         }
     ],
     "tier_three": [
@@ -441,13 +449,6 @@
             "tier": 3,
             "workplace": "Daily Mail",
             "link": "MikeKeegan_DM"
-        },
-        {
-            "name": "Nizaar Kinsella",
-            "type": "journalist",
-            "tier": 3,
-            "workplace": "BBC",
-            "link": "NizaarKinsella"
         },
         {
             "name": "Ian Ladyman",
