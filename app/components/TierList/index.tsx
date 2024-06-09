@@ -1,7 +1,5 @@
 'use client';
 
-import { useRouter } from 'next/navigation';
-import { useSearchParams } from 'next/navigation';
 import React, { useState, useEffect } from 'react';
 
 import { renderList } from './helpers';
@@ -11,10 +9,7 @@ import { useCurrentScrollPosiion } from '@/app/hooks';
 import { Tier0, SearchField, ScrollToTop } from '@/app/components';
 
 const List: React.FC<TierListInterface> = ({ data }) => {
-    const router = useRouter();
-    const searchParams = useSearchParams();
-
-    const [searchTerm, setSearchTerm] = useState(searchParams.get('search') || '');
+    const [searchTerm, setSearchTerm] = useState('');
     const [prevSection, setPrevSection] = useState('');
     const [filteredData, setFilteredData] = useState({});
     const [currentSection, setCurrentSection] = useState('');
@@ -70,10 +65,6 @@ const List: React.FC<TierListInterface> = ({ data }) => {
             setFilteredData(data);
         }
     }, [data]);
-
-    useEffect(() => {
-        router?.push(`?search=${searchTerm}`);
-    }, [searchTerm]);
 
     return (
         <div>
