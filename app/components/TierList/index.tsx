@@ -2,10 +2,11 @@
 
 import React, { useState, useEffect } from 'react';
 
+import Loading from '@/app/loading';
 import { renderList } from './helpers';
-import { getTierCredibility } from '@/app/utils';
 import { TierListInterface } from '@/app/interface';
 import { useCurrentScrollPosiion } from '@/app/hooks';
+import { getTierCredibility, isEmpty } from '@/app/utils';
 import { Tier0, SearchField, ScrollToTop } from '@/app/components';
 
 const List: React.FC<TierListInterface> = ({ data }) => {
@@ -86,12 +87,16 @@ const List: React.FC<TierListInterface> = ({ data }) => {
                 )}
             </div>
 
-            <div className="py-4">
-                {Object.keys(filteredData).map((tier, tierIndex) => (
-                    // @ts-ignore
-                    <div key={tierIndex}>{renderList(filteredData[tier], tier)}</div>
-                ))}
-            </div>
+            {isEmpty(filteredData) ? (
+                <Loading />
+            ) : (
+                <div className="py-4">
+                    {Object.keys(filteredData).map((tier, tierIndex) => (
+                        // @ts-ignore
+                        <div key={tierIndex}>{renderList(filteredData[tier], tier)}</div>
+                    ))}
+                </div>
+            )}
 
             <ScrollToTop />
         </div>

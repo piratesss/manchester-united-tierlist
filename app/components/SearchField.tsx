@@ -8,9 +8,9 @@ interface SearchFieldProps {
 const SearchField: FC<SearchFieldProps> = props => {
     const { searchTerm, handleSearch } = props;
     return (
-        <div className="">
+        <>
             <input type="text" value={searchTerm} onChange={handleSearch} placeholder="Search" />
-        </div>
+        </>
     );
 };
 export default SearchField;

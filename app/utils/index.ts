@@ -1,27 +1,27 @@
 import {
-    Argentina,
-    England,
-    France,
+    BVB,
     Italy,
     Spain,
+    France,
+    Manutd,
+    Brazil,
+    AcMilan,
+    England,
     Germany,
     Uruguay,
-    Netherlands,
-    Manutd,
     Mancity,
-    Liverpool,
     Everton,
-    Realmadrid,
-    Juventus,
-    BayernMunich,
     Chelsea,
-    BVB,
-    Brazil,
-    WestHamUnited,
-    Porgugal,
     Schalke,
+    Juventus,
+    Porgugal,
     Gladbach,
-    AcMilan,
+    Argentina,
+    Liverpool,
+    Realmadrid,
+    Netherlands,
+    BayernMunich,
+    WestHamUnited,
 } from '@/public';
 import { TIER_CREDIBILITY } from '@/app/data/tierCredibility';
 
@@ -91,4 +91,11 @@ export const getTierCredibility = (activeTier: string) => {
     const activeTierToLowercase = activeTier.toLowerCase();
 
     return TIER_CREDIBILITY[activeTierToLowercase];
+};
+
+export const isEmpty = (object: object) => {
+    if (object && typeof object === 'object') {
+        return Object.keys(object).length === 0;
+    }
+    return true;
 };
