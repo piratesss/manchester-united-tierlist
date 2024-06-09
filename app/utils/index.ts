@@ -23,6 +23,7 @@ import {
     Gladbach,
     AcMilan,
 } from '@/public';
+import { TIER_CREDIBILITY } from '@/app/data/tierCredibility';
 
 export const turnToLowercase = (value: string) => {
     return value?.toLowerCase();
@@ -84,4 +85,10 @@ export const capitalizeFirstLetter = (value: string) => {
         .split(' ')
         .map(word => word.charAt(0).toUpperCase() + word.slice(1))
         .join(' ');
+};
+
+export const getTierCredibility = (activeTier: string) => {
+    const activeTierToLowercase = activeTier.toLowerCase();
+
+    return TIER_CREDIBILITY[activeTierToLowercase];
 };
