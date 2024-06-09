@@ -15,7 +15,7 @@ const StickyTierHeader = () => {
             let current = prevSection;
 
             sections.forEach(section => {
-                const sectionTop = section.offsetTop;
+                const sectionTop = section.offsetTop - 153;
                 const sectionHeight = section.clientHeight;
                 if (window.scrollY >= sectionTop && window.scrollY < sectionTop + sectionHeight) {
                     current = section.textContent || '';
