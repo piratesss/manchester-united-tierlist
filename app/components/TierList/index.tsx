@@ -17,7 +17,7 @@ const List: React.FC<TierListInterface> = ({ data }) => {
     const { scrollPosition } = useCurrentScrollPosiion();
 
     const handleSearch = (event: React.ChangeEvent<HTMLInputElement>) => {
-        const term = event.target.value;
+        const term = event.target.value.toLowerCase();
         setSearchTerm(term);
 
         if (term === '') {
@@ -76,7 +76,7 @@ const List: React.FC<TierListInterface> = ({ data }) => {
                 </div>
                 {scrollPosition >= 153 && (
                     <>
-                        <div className="flex items-center absolute p-2 bg-background w-full text-center md:text-start">
+                        <div className="flex items-center absolute p-2 bg-background w-full text-center md:text-start text-nowrap">
                             <h2>{currentSection}</h2>&nbsp;
                             <span className="font-medium">
                                 - {getTierCredibility(currentSection)}
