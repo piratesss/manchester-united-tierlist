@@ -4,14 +4,14 @@
 
 ## Features
 
-    # A tier-list made for manchester united news
+    # A tier-list made for Manchester United News
         Tier 0 = (Undisputed, Official Sources)
         Tier 1 = (Highest Quality Sources)
         Tier 2 (Proven to have current sources)
         Tier 3 (Average reliability, or former Tier 2)
         Tier 4 (Indirect sources, low reliability)
-    # Also has search box to search for any reporters, their work place, reporter type and region
-    # Has associated clubs, region per reporter to ensure credibility
+    # Also has a search box to search for any reporters, their workplace, reporter type, and region
+    # Has associated clubs, regions per reporter to ensure credibility
     # TODO / Add filters
 
 ## Reporters JSON Data is present in app/data/tierList.json
@@ -49,20 +49,20 @@ you might need to update it in this format and replace link with the full url
 
 ```
 
--   name = Soure Name
+-   name = Source Name
 -   type = Journalist / Reporter / Anchor
 -   tier = The source tier
 -   workplace = The source workplace(s)
 -   link = their twitter handle link, if they do not have twitter leave it "N/A"
--   region = Their region, if unsure you don't need to include this
+-   region = Their region, if unsure, you don't need to include this
 -   club = The clubs where they report to, if unsure not necessary
--   not_twitter_link = boolea, only when the source might not have a twitter handle
+-   not_twitter_link = boolean, only when the source might not have a twitter handle
 
 <hr/>
 
 ## Contributing to manchester-united-tierlist
 
 -   If you feel the info does not match or needs updating please feel free to update the JSON values and create a pull
-    request or add new entries if necessary following the JSON strucure above.
+    request or add new entries if necessary following the JSON structure above.
 
-*   If you are adding images please add it in the public folder, import it in the public/index.ts and then based on the image being a club or country use it in app/utils.
+*   If you are adding images please add them in the public folder, import them in the public/index.ts, and then based on the image being a club or country use it in app/utils.
