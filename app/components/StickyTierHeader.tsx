@@ -1,4 +1,4 @@
-import { FC, useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import { getTierCredibility } from '@/app/utils';
 import { useCurrentScrollPosiion } from '@/app/hooks';

@@ -72,16 +72,13 @@ const List: React.FC<TierListInterface> = ({ data }) => {
     return (
         <div>
             <Tier0 />
-
             <div className="sticky top-0 z-10 w-full">
                 <div className="bg-background flex gap-5 items-center justify-center p-4">
                     <SearchField searchTerm={searchTerm} handleSearch={handleSearch} />
                 </div>
                 <StickyTierHeader />
             </div>
-
             {renderTierList()}
-
             <ScrollToTop />
         </div>
     );
