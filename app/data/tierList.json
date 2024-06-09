@@ -143,6 +143,23 @@
             "workplace": "BBC",
             "link": "BBC",
             "region": "England"
+        },
+        {
+            "name": "Paul Hirst",
+            "type": "reporter",
+            "tier": 1,
+            "workplace": "The Times",
+            "link": "hirstclass",
+            "club": ["Manchester United", "Manchester City"],
+            "region": "England"
+        },
+        {
+            "name": "Matt Law",
+            "type": "reporter",
+            "tier": 1,
+            "workplace": "The Telegraph",
+            "link": "Matt_Law_DT",
+            "club": ["Chelsea"]
         }
     ],
     "tier_two": [
@@ -201,29 +218,12 @@
             "region": "France"
         },
         {
-            "name": "Paul Hirst",
-            "type": "reporter",
-            "tier": 2,
-            "workplace": "The Times",
-            "link": "hirstclass",
-            "club": ["Manchester United", "Manchester City"],
-            "region": "England"
-        },
-        {
             "name": "Raphael Honigstein",
             "type": "journalist",
             "tier": 2,
             "workplace": "N/A",
             "link": "honigstein",
             "region": "Germany"
-        },
-        {
-            "name": "Matt Law",
-            "type": "reporter",
-            "tier": 2,
-            "workplace": "The Telegraph",
-            "link": "Matt_Law_DT",
-            "club": ["Chelsea"]
         },
         {
             "name": "Mike McGrath",
