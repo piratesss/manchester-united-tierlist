@@ -1,7 +1,6 @@
+import { FC } from 'react';
 import React from 'react';
 import Image, { StaticImageData } from 'next/image';
-
-import { FC } from 'react';
 
 interface ImgProps {
     src: StaticImageData;
