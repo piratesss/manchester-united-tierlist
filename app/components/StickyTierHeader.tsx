@@ -38,9 +38,12 @@ const StickyTierHeader = () => {
         <div>
             {scrollPosition >= 153 && (
                 <>
-                    <div className="flex items-center absolute p-2 bg-background w-full text-center md:text-start text-nowrap">
-                        <h2>{currentSection}</h2>&nbsp;
-                        <span className="font-medium">- {getTierCredibility(currentSection)}</span>
+                    <div className="flex items-center absolute p-2 bg-background w-full text-center md:text-start text-wrap md:text-base sm:text-sm lg:text-nowrap">
+                        <h2 className="text-nowrap">{currentSection}</h2>&nbsp;
+                        <span className="font-medium">-</span>
+                        <span className="font-medium text-left ml-2 sm:text-sm">
+                            {getTierCredibility(currentSection)}
+                        </span>
                     </div>
                 </>
             )}
